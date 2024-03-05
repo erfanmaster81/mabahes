@@ -7,7 +7,7 @@ def find_duplicates(arr):
     return duplicate
 
 random.seed(400121055)
-rand_numbers=[random.randint(1,1000) for _ in range(1000)]
+rand_numbers=[random.randint(1,21) for _ in range(1000)]
 result=find_duplicates(rand_numbers)
 print(result)
 
